@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reversed List</title>
+    <style>
+        .rectangle {
+            height: 250px;
+            width: 450px;
+            background-color: #e6e5e5;
+            position:absolute;
+            top:25%;
+            left:50%;
+            transform:translate(-50%,-50%);
+        }
+        .heading {
+            text-align: center;
+            color :rgb(39, 84, 121);
+            font-family: "Sans-serif";
+        }
+        .ordered {
+            text-align: center;
+        }
+        .list {
+            text-align: left;
+            font-family: "Sans-serif";
+        }
+        .line {
+            width: 25px;
+            height: 0px;
+            margin-top: 9px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+    <div><div>
+    <h3 class="heading">Grocery List</h3>
+    <div><ol reversed>
+        <li class="list">Beverages: juice, coffee, soda, water</li>
+        <div class="line"></div>
+        <li class="list">Snacks: chips, cookies, popcorn, nuts</li>
+        <li class="list">Produce: apples, bananas, melons</li>
+        <li class="list">Dairy: milk, eggs, cheese</li>
+    </ol></div>
+    </div></div>
+    </div>
+</body>
+</html>
