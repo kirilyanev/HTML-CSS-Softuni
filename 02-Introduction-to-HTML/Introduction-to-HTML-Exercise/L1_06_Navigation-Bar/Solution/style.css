@@ -1,7 +1,6 @@
 nav ul li {
     display: inline-block;
-    padding: 20px;
-    
+    padding: 15px;    
     
 }
 nav ul li a {
@@ -9,7 +8,17 @@ nav ul li a {
     color: green;
 }
 nav ul {
-    margin-top: -10px;
+    margin: -8px;
+    background-color: #d3d3d3;
+}
+a:hover {
+    background-color: #009900;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:white;
 }
 nav {
     text-align: center;
