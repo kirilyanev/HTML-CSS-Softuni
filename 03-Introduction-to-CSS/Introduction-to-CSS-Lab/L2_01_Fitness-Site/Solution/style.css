@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f1f5;
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    padding: 2rem 12rem;
+}
+nav {
+    text-align: right;
+}
+nav ul {
+    float: right;
+
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #f9690e;
+}
+header > p {
+    color:#f9690e;
+    float: left;
+}
+main section :nth-child(1) {
+    margin-top: 3rem;
+    background-image: url(../Requirements-and-Resources/Images/picture.jpg);
+    padding: 11rem 15rem;
+    background-size: cover;
+    background-position: center;
+}
+main section :nth-child(1) h1 {
+    color: white;
+}
+main section :nth-child(1) span {
+    color: #f9690e;
+}
+main section :nth-child(1) button {
+    text-align: center;
+    color: white;
+    background-color: #f9690e;
+    border: none;
+    font-size: 22px;
+}
